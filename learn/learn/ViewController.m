@@ -23,10 +23,14 @@
     UIView *redView = [[UIView alloc]initWithFrame:CGRectMake(10, 110, 44, 44)];
     [self.view addSubview:redView];
     redView.backgroundColor = [UIColor redColor];
-    
+
     UIView *brownView = [[UIView alloc]initWithFrame:CGRectMake(20, 300, 44, 44)];
     [self.view addSubview:brownView];
     brownView.backgroundColor = [UIColor brownColor];
+
+    UIView *greenView = [[UIView alloc]initWithFrame:CGRectMake(10, 200, 44, 90)];
+    [self.view addSubview:greenView];
+    greenView.backgroundColor = [UIColor greenColor];
     
     UIView *blackView = [[UIView alloc]initWithFrame:CGRectMake(20, 400, 44, 44)];
     [self.view addSubview:blackView];
